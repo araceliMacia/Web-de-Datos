@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Creado por Araceli Macía Barrado. Fecha 07/06/2015-->
+<!--Para el ejercicio 2_1 reutilizar en la medida que sea posible las siguientes propiedades:
+“sioc:content” del vocabulario SIOC para la propiedad “content”
+“sioc:has_creator” del vocabulario SIOC para la propiedad “creator” -->
+
+
+
+<rdf:RDF
+ xmlns="http://www.example.com/myprimerrdfs#"
+ xml:base="http://www.example.com/myprimerrdfs#"
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:sioc="http://rdfs.org/sioc/ns#"
+ xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+
+<!-- Me genero mi clase Tweet como una subclase de la clase Post de Sioc.-->
+
+<rdfs:Class rdf:about="#Tweet">
+	<rdfs:SubClassOf rdf:resource="http://rdfs.org/sioc/ns#Post"/>
+</rdfs:Class>
+
+
+<!-- Genero mi dato del tweet utilizando las propiedades que ya estan creadas.-->
+<Tweet rdf:about="http://www.example.com/myprimerrdfs#tweet111">
+	<sioc:has_creator>
+        <sioc:UserAccount rdf:about="http://www.example.com/myprimerrdfs#User211"/>
+   	</sioc:has_creator>
+    <sioc:content>Contenido de mi Tweet</sioc:content>
+
+</Tweet>
+
+<sioc:UserAccount rdf:about="http://www.example.com/myprimerrdfs#User211"/>
+
+</rdf:RDF>

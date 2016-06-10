@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Creado por Araceli Macía Barrado-->
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:region="http://www.country-regions.fake/">
+
+<rdf:Description rdf:about="http://en.wikipedia.org/wiki/Oxford"> 
+	<dc:title>Oxford</dc:title>   
+	<dc:coverage>Oxfordshire</dc:coverage>
+	<dc:publisher>Wikipedia</dc:publisher>
+	<region:population>10000</region:population>
+	<region:principaltown rdf:resource="http://www.country-regions.fake/oxford"/> 
+</rdf:Description>
+ 
+</rdf:RDF>
+
+ <!---
+ 	- Numero de resources referenciados
+		: Uno, en el resource Oxfor se hace referencia a otro Oxfor en una URI diferente.
+		: Nota: Cuando dices "referenciados" no entiendo bien lo que preguntas. En este XML se detalla un recurso Oxford, en las que una de las propiedades tiene como valor otro recurso situado en otra URL. 
+	- Nombre del sujeto de la descripción
+		: Nombre del sujeto es : Oxford
+	- URI del sujeto de la descripción
+		: http://en.wikipedia.org/wiki/Oxford
+	- Nombre de predicados o propiedades para describir el sujeto
+		: title, valor Oxford, 
+		: coverage valor Oxfordshire 
+		: publisher, valor Wikipedia
+		: population, valor 10000 
+		: principaltown, valor es otro recurso http://www.country-regions.fake/oxford
+	- Objetos de tipo Literales referenciados por los predicados
+		: literales son title, coverage, publisher y population
+	- Objetos de tipo resource referenciados por los predicados
+		: principaltown
+	- Vocabularios reutilizados: URI y namespace
+		: namespaces: rdf, dc region
+		: URIS que se han empleado son  http://en.wikipedia.org/wiki/Oxford y http://www.country-regions.fake/oxford
+	- Tag utilizado para describir el documento
+		: para describir el documento : <rdf:RDF para abrir el contenido, y </rdf:RDF> de etiqueta de cierre.
+	- Tag RDF utlizado para describir el recurso
+		: <rdf:Description, que encapsula las descripciones.
+-->

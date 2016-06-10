@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:ns2="http://live.dbpedia.org/property/"
+	xmlns:ns3="http://live.dbpedia.org/ontology/"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:ns7="http://live.dbpedia.org/ontology/Work/" >
+  <rdf:Description rdf:about="http://live.dbpedia.org/resource/Viviendo_Deprisa">
+    <ns2:title xml:lang="en">Viviendo Depresia</ns2:title>
+    <ns3:recordedIn rdf:resource="http://live.dbpedia.org/resource/Real_Madrid_C.F." />
+    <rdf:type rdf:resource="http://live.dbpedia.org/ontology/Album" />
+    <ns2:rev rdf:resource="http://live.dbpedia.org/resource/Allmusic" />
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q482994" />
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q386724" />
+    <rdf:type rdf:resource="http://live.dbpedia.org/ontology/Work" />
+    <ns3:artist rdf:resource="http://live.dbpedia.org/resource/Alejandro_Sanz" />
+    <rdf:type rdf:resource="http://schema.org/CreativeWork" />
+    <rdf:type rdf:resource="http://schema.org/MusicAlbum" />
+    <ns2:artist xml:lang="en">Alejandro Sanz</ns2:artist>
+    <ns2:award xml:lang="en">Platinum</ns2:award>
+    <ns2:cover xml:lang="en">viviendodeprisa.jpg</ns2:cover>
+    <rdf:type rdf:resource="http://www.wikidata.org/entity/Q2188189" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Thing" />
+    <ns2:length rdf:datatype="http://dbpedia.org/datatype/second">2530.0</ns2:length>
+    <rdf:type rdf:resource="http://live.dbpedia.org/ontology/MusicalWork" />
+    <owl:sameAs rdf:resource="http://dbpedia.org/resource/Viviendo_Deprisa" />
+    <owl:sameAs rdf:resource="http://pt.dbpedia.org/resource/Viviendo_deprisa" />
+    <owl:sameAs rdf:resource="http://rdf.freebase.com/ns/m.0kys_h" />
+    <owl:sameAs rdf:resource="http://es.dbpedia.org/resource/Viviendo_deprisa" />
+    <owl:sameAs rdf:resource="http://wikidata.org/entity/Q2384434" />
+    <ns2:recorded rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2006</ns2:recorded>
+    <owl:sameAs rdf:resource="http://wikidata.dbpedia.org/resource/Q2384434" />
+    <ns3:subsequentWork rdf:resource="http://live.dbpedia.org/resource/Si_Tú_Me_Miras" />
+    <owl:sameAs rdf:resource="http://nl.dbpedia.org/resource/Viviendo_Deprisa" />
+    <foaf:isPrimaryTopicOf rdf:resource="http://en.wikipedia.org/wiki/Viviendo_Deprisa" />
+    <ns3:recordedIn rdf:resource="http://live.dbpedia.org/resource/Spain" />
+    <foaf:name xml:lang="en">Viviendo Deprisa</foaf:name>
+    <ns2:recorded xml:lang="en">November-December 1990 at</ns2:recorded>
+    <ns2:recorded rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1993</ns2:recorded>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://en.wikipedia.org/wiki/Viviendo_Deprisa">
+    <foaf:primaryTopic rdf:resource="http://live.dbpedia.org/resource/Viviendo_Deprisa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://live.dbpedia.org/resource/Viviendo_Deprisa">
+    <rdfs:comment xml:lang="en">Viviendo Deprisa (English: &quot;Living in a Hurry&quot;) is the debut album recorded by Spanish singer-songwriter Alejandro Sanz (although he previously had recorded Los Chulos Son Pa&#39; Cuidarlos under the name Alejandro Magno). With this album he was announced to national level, all the tracks were composed by Sanz but were credited to A. Medina (Algazul Medina) pseudonymous that Sanz used initially in his career.</rdfs:comment>
+    <rdfs:label xml:lang="en">Viviendo Deprisa</rdfs:label>
+    <ns2:number rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</ns2:number>
+    <ns2:award xml:lang="en">Gold</ns2:award>
+    <dct:subject rdf:resource="http://live.dbpedia.org/resource/Category:1991_albums" />
+    <dct:subject rdf:resource="http://live.dbpedia.org/resource/Category:Alejandro_Sanz_albums" />
+    <dct:subject rdf:resource="http://live.dbpedia.org/resource/Category:Warner_Music_Latina_albums" />
+    <ns7:runtime rdf:datatype="http://dbpedia.org/datatype/minute">42.166666666666664</ns7:runtime>
+    <ns3:abstract xml:lang="en">Viviendo Deprisa (English: &quot;Living in a Hurry&quot;) is the debut album recorded by Spanish singer-songwriter Alejandro Sanz (although he previously had recorded Los Chulos Son Pa&#39; Cuidarlos under the name Alejandro Magno). With this album he was announced to national level, all the tracks were composed by Sanz but were credited to A. Medina (Algazul Medina) pseudonymous that Sanz used initially in his career. The official singles of the album were &quot;Los Dos Cogidos de la Mano&quot; and &quot;Pisando Fuerte&quot;, which were a boom in the musical Spanish panorama, other songs that received radio airplay were &quot;Se Le Apagó la Luz&quot; and &quot;Lo Que Fui Es lo Que Soy&quot;. He shot videos for the songs &quot;Los Dos Cogidos de la Mano&quot; and &quot;Pisando Fuerte&quot;.Due to the fact that in Mexico the verb &quot;coger&quot; is a vulgar term referring to sexual relations, &quot;Los Dos Cogidos de la Mano&quot; was not allowed be played on Mexican radio.</ns3:abstract>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://live.dbpedia.org/resource/Si_Tú_Me_Miras">
+    <ns3:previousWork rdf:resource="http://live.dbpedia.org/resource/Viviendo_Deprisa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://live.dbpedia.org/resource/Viviendo_Deprisa">
+    <ns3:releaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-09-26+02:00</ns3:releaseDate>
+    <ns2:type xml:lang="en">studio</ns2:type>
+    <ns2:label rdf:resource="http://live.dbpedia.org/resource/Warner_Music_Group" />
+    <ns2:type xml:lang="en">album</ns2:type>
+    <ns2:name xml:lang="en">Viviendo Deprisa</ns2:name>
+    <ns3:recordLabel rdf:resource="http://live.dbpedia.org/resource/Warner_Music_Group" />
+    <ns3:wikiPageEditLink rdf:resource="http://en.wikipedia.org/w/index.php?title=Viviendo_Deprisa&amp;action=edit" />
+    <ns3:wikiPageExtracted rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-03T17:37:09Z</ns3:wikiPageExtracted>
+    <ns3:wikiPageHistoryLink rdf:resource="http://en.wikipedia.org/w/index.php?title=Viviendo_Deprisa&amp;action=history" />
+    <ns3:wikiPageID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7697053</ns3:wikiPageID>
+    <ns3:wikiPageLength rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4465</ns3:wikiPageLength>
+    <ns2:recorded xml:lang="en">Pabellon de Deportes del Real Madrid</ns2:recorded>
+    <ns3:wikiPageModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2015-08-19T23:46:10Z</ns3:wikiPageModified>
+    <ns2:autocat xml:lang="en">yes</ns2:autocat>
+    <ns3:wikiPageOutDegree rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">29</ns3:wikiPageOutDegree>
+    <ns3:wikiPageRevisionID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">676916100</ns3:wikiPageRevisionID>
+    <ns2:relyear rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1991</ns2:relyear>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://live.dbpedia.org/resource/Los_Chulos_Son_Pa&#39;_Cuidarlos">
+    <ns3:subsequentWork rdf:resource="http://live.dbpedia.org/resource/Viviendo_Deprisa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://live.dbpedia.org/resource/Viviendo_Deprisa">
+    <ns2:title xml:lang="en">Viviendo Deprisa</ns2:title>
+    <ns3:wikiPageRevisionLink rdf:resource="http://en.wikipedia.org/w/index.php?title=Viviendo_Deprisa&amp;oldid=676916100" />
+    <ns2:wikiPageUsesTemplate rdf:resource="http://live.dbpedia.org/resource/Template:Infobox_album" />
+    <ns2:noprose xml:lang="en">yes</ns2:noprose>
+    <ns2:recorded xml:lang="en">Quarzo Studios</ns2:recorded>
+    <ns2:wikiPageUsesTemplate rdf:resource="http://live.dbpedia.org/resource/Template:Album_ratings" />
+    <ns3:subsequentWork rdf:resource="http://live.dbpedia.org/resource/Si_T%C3%BA_Me_Miras" />
+    <ns2:artist rdf:resource="http://live.dbpedia.org/resource/Alejandro_Sanz" />
+    <ns3:recordedIn rdf:resource="http://live.dbpedia.org/resource/Madrid" />
+    <ns2:producer xml:lang="en">Miguel Ángel Arenas</ns2:producer>
+    <ns2:wikiPageUsesTemplate rdf:resource="http://live.dbpedia.org/resource/Template:Certification_Table_Entry" />
+    <ns3:previousWork rdf:resource="http://live.dbpedia.org/resource/Los_Chulos_Son_Pa&#39;_Cuidarlos" />
+    <ns2:wikiPageUsesTemplate rdf:resource="http://live.dbpedia.org/resource/Template:Lang-en" />
+    <ns3:releaseDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-09-26+01:00</ns3:releaseDate>
+    <ns2:nextAlbum xml:lang="en">Si Tú Me Miras</ns2:nextAlbum>
+    <ns3:runtime rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2530.0</ns3:runtime>
+    <ns2:released xml:lang="en">May 1991</ns2:released>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://live.dbpedia.org/resource/Si_T%C3%BA_Me_Miras">
+    <ns3:previousWork rdf:resource="http://live.dbpedia.org/resource/Viviendo_Deprisa" />
+  </rdf:Description>
+  <rdf:Description rdf:about="http://live.dbpedia.org/resource/Viviendo_Deprisa">
+    <ns2:region xml:lang="en">Argentina</ns2:region>
+    <ns2:wikiPageUsesTemplate rdf:resource="http://live.dbpedia.org/resource/Template:Certification_Table_Top" />
+    <ns2:wikiPageUsesTemplate rdf:resource="http://live.dbpedia.org/resource/Template:Certification_Table_Bottom" />
+    <ns2:released rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-09-26+02:00</ns2:released>
+    <ns2:wikiPageUsesTemplate rdf:resource="http://live.dbpedia.org/resource/Template:Reflist" />
+    <ns2:released rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-09-26+01:00</ns2:released>
+    <ns2:lastAlbum xml:lang="en">Los Chulos Son Pa&#39; Cuidarlos</ns2:lastAlbum>
+    <ns2:wikiPageUsesTemplate rdf:resource="http://live.dbpedia.org/resource/Template:Alejandro_Sanz" />
+    <ns3:genre rdf:resource="http://live.dbpedia.org/resource/Latin_pop" />
+    <ns2:genre rdf:resource="http://live.dbpedia.org/resource/Latin_pop" />
+    <ns2:recorded xml:lang="en">November–December 1990 at</ns2:recorded>
+    <ns2:region xml:lang="en">Spain</ns2:region>
+    <ns2:hasPhotoCollection rdf:resource="http://wifo5-03.informatik.uni-mannheim.de/flickrwrappr/photos/Viviendo_Deprisa" />
+    <ns2:thisAlbum xml:lang="en">Viviendo Deprisa</ns2:thisAlbum>
+    <ns2:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</ns2:id>
+  </rdf:Description>
+</rdf:RDF>
