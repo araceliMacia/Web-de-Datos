@@ -1,0 +1,22 @@
+#Ejercicio 4_7: Haciendo uso de las clausulas FROM/FROM NAMED/ GRAPH obtener la duracion las peliculas ganadoras de algun certament.
+#Pistas: en el grafo por defecto se obtendra  las peliculas ganadora con “g:bestPicture” y del grafo 1 se obtendra la duracion de las mismas con “g1:duration”
+
+
+PREFIX foaf:   <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX g1: <http://example.org/film/g1/>
+PREFIX ex4: <http://example.org/award/>
+
+
+SELECT ?name ?duracion
+FROM default
+FROM NAMED <http://example.org/film/g1>
+WHERE {
+	?s ex4:bestPicture ?name
+GRAPH ?graph1
+	{ ?film foaf:name ?name .
+	  ?film g1:duration ?duracion}
+}
+

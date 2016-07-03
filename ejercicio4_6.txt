@@ -1,0 +1,20 @@
+#Ejercicio 4_6: AGREGADOS: Cual es el libro mas caro? (grafo libros)
+
+PREFIX foaf:   <http://xmlns.com/foaf/0.1/>
+PREFIX rdfs:   <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/> 
+PREFIX ex: <http://example.org/country/> 
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> 
+PREFIX ex2: <http://example.org/book/>
+
+SELECT ?book ?max
+WHERE {
+  ?book ex2:price ?prize .
+  FILTER (xsd:integer(?prize)= ?max )
+  {  SELECT  (max(xsd:integer(?prize)) as ?max) 
+     WHERE {
+        ?book  ex2:price ?prize 
+    }
+  }
+}
